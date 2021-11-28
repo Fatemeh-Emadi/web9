@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap');
+
+.space{
+  position: relative; /* Safari */
+  
+  
+
+}
+
+.space img{
+    width: 100%;
+
+    position: relative;
+    border-style: solid;
+  border-radius:40px ;
+    border-width: 0.5px;
+    border-color: white;
+    opacity: 0.5px;
+    filter:  drop-shadow(0px 20px 10px rgba(0, 0, 0, shadow-opacity(0.30)));
+
+   
+}
+.space #search1{
+    position: relative;
+    bottom: 690px;
+    left: 970px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 40px;
+        /* background-image: url(space.jpg);*/
+        /* background-size: auto;*/
+      
+        box-shadow: 1px 1px 2px rgba(228, 225, 225, 0.5);
+        
+        /*filter: blur(0.6px);*/
+        border-style: solid;
+        
+        border-width: 0.1px;
+        background-color: #a09c9c;
+        background-color: rgba(65, 60, 60, 0.5);
+        display: flex;
+     
+}
+.space #search1:hover{
+  opacity: 0.8;
+}
+.space #icon-search{
+  position: relative;
+  bottom: 740;
+  left: 1220;
+  font-size: 30;
+  
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+ 
+  
+}
+
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.row{
+  
+  position: relative;
+  
+  display: flex;
+  
+  width: 1000px;
+  bottom: 290;
+  margin-left: 160px;
+  border-width: 0.1px;
+  justify-content: center;
+  
+  border: hidden;
+  border-radius: 30px;
+  background-color: #a09c9c;
+  background-color: rgba(65, 60, 60, 0.5);
+        
+        border-width: 0.1px;
+
+  
+}
+ .row .col-9{
+  padding: 20px;
+  width: 20%;
+  box-sizing: border-box;
+  }
+  .row .col-9:hover{
+    opacity: 0.5;
+  }
+  .planet img{
+    width: 100%;
+    border-radius: 100%;
+    
+    }
+    
+    #galaxy #img1{
+      position: relative;
+      bottom: 230;
+      border-style: solid;
+      border-width: 0.5px;
+      display: flex;
+      border-radius: 40px;
+      
+      width: 100%;
+      filter: blur(1px);
+      
+      
+    }
+    
+    #galaxy .row1{
+      position: relative;
+      display: flex;
+      
+      bottom: 660;
+      margin-left: 130px;
+      height: 110px;
+      width: 1100px;
+      border-radius: 5px;
+  
+      justify-content: center;
+      box-shadow: 3px 2px 3px rgb(51, 51, 233);
+      
+      border: hidden;
+     
+      
+    
+    }
+   .row1 .col-6{
+    padding: 8px;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #a09c9c;
+    background-color: rgba(93, 103, 145, 0.5);
+
+  }
+  .coll img{
+    
+    width: 100%;
+    
+  }
+  
+  .zirnevis{
+    margin-left: 22px;
+    
+    color: aliceblue;
+  }
+  
+.space #btn{
+  position: relative;
+  bottom:750;
+  left: 40;
+  border: hidden;
+  
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #a09c9c;
+  background-color: rgba(65, 60, 60, 0.5);
+  color: aliceblue;     
+  border-width: 0.1px;
+
+}
+#btn:hover{
+  opacity: 0.5;
+}
+ .row1 .coll .left{
+  position: relative;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 15px;
+  border-style: none;
+  
+  margin-left: 125px;
+  padding: 8px;
+  bottom: 33px;
+  width: 42px;
+  height: 32px;
+  opacity: 0.2;
+  transition: opacity 1s;
+}
+.row1 .coll .left:hover{
+  opacity: 0.4;
+}
+.part3  {
+  
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: none;
+  border-radius:30px ;
+
+  bottom: 490;
+ background-color: rgb(17, 17, 77);
+}
+.part3 .phone{
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10;
+ 
+  left: 10;
+  
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #a09c9c;
+  background-color: rgba(82, 77, 79, 0.3);
+  color: aliceblue;  
+  box-shadow: 2px 2px 2px rgb(75, 75, 223);
+  border-color: rgb(70, 70, 235);
+  border-style:solid ;
+  border-width: 0.5px;
+  
+ 
+}
+.phone:hover{
+  opacity: 0.6;
+}
+.submit1{
+  position: absolute;
+  top: 104;
+  left: 335;
+  padding: 10px;
+  margin-top:7px;
+  border-radius: 2px;
+  background-color: #a09c9c;
+  background-color: rgba(82, 77, 79, 0.3);
+  color: aliceblue;  
+  box-shadow: 2px 2px 2px rgb(75, 75, 223);
+  border-color: rgb(70, 70, 235);
+  border-style:solid ;
+  border-width: 0.5px;
+}
+.submit1:hover{
+  opacity: 0.5;
+}
+
+#f1 {
+
+  font-size: 13px;
+  padding: 20px;
+  width: 30px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #a09c9c;
+  background-color: rgba(116, 110, 112, 0.3);
+  box-shadow: 2px 2px 2px rgb(75, 75, 223);
+  border-color: rgb(70, 70, 235);
+  color: aliceblue; 
+  position:relative;
+  left: 3;
+  bottom: 5;
+  border-radius: 5px;
+  
+}
+#f1:hover{
+  opacity: 0.6;
+}
+.part4{
+  width: 100%;
+  height: 40%;
+  position: relative;
+  border: none;
+  border-radius:30px ;
+
+  bottom: 490;
+ background-image: linear-gradient(rgb(14, 18, 77),rgb(54, 54, 243));
+
+
+
+}
+#footer{
+  display: flex;
+ 
+  padding: 60px;
+  position: relative;
+  border-radius: 40px;
+  bottom: 480;
+  background-image: linear-gradient(rgb(10, 10, 54),blue);
+  width: 100%;
+  
+  border: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+.fa-linkedin {
+background: #43dee9;
+color: white;
+}
+.fa-instagram {
+background: #f575a0;
+color: white;
+}
+#f2{
+
+  font-size: 13px;
+  padding: 25px;
+  width: 80px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #a09c9c;
+  background-color: rgba(116, 110, 112, 0.3);
+  box-shadow: 2px 2px 2px rgb(75, 75, 223);
+  border-color: rgb(70, 70, 235);
+  color: aliceblue; 
+  position:relative;
+  left: 10;
+  margin-top: 1px;
+  border-radius: 20px;
+  
+  
+}
+.links{
+  position: relative;
+  top: 80;
+  color: azure;
+  display: flex;
+  
+  text-decoration: none;
+  margin-left: 15px;
+  left: 450;
+}
+#submit2{
+  position: absolute;
+  top: 104;
+  margin-left: 40px;
+  padding: 10px 80px 10px 80px;
+  margin-top:7px;
+  border-radius: 2px;
+  background-color: #a09c9c;
+  background-color: rgba(82, 77, 79, 0.3);
+  color: aliceblue;  
+  box-shadow: 2px 2px 2px rgb(75, 75, 223);
+  border-color: rgb(70, 70, 235);
+  border-style:solid ;
+  border-width: 0.5px;
+}
+#submit2:hover{
+  opacity: 0.5;
+}
+
+@media only screen and (max-width:500px){
+  .row .col-9{
+      padding: 5px;
+      width: 75%;
+      
+      } 
+      .row1 .col-6{
+          width: 50%;
+
+      }
+    
+     
+}
+
+
+  
+  
+
+
